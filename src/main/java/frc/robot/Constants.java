@@ -20,13 +20,22 @@ public final class Constants {
         public static final int CAN_SPKMX_R2 = 4;
     }
     public final class MotorSpecs{
+        /*Falcon 500 Specs*/
         public static final int FALCON_ENC_RES = 2048;
         public static final int FALCON_MAX_RPM = 6380;
+        /*NEO Specs*/
         public static final int NEO_ENC_RES = 42;
-        public static final int NEO_MAX_RPM = 5676;
+        public static final double NEO_kP = 6e-5; 
+        public static final double NEO_kI = 0;
+        public static final double NEO_kD = 0; 
+        public static final double NEO_kIz = 0; 
+        public static final double NEO_kFF = 0.000015; 
+        public static final double NEO_kMaxOutput = 1; 
+        public static final double NEO_kMinOutput = -1;
+        public static final double  NEO_maxRPM = 5700;
     }
     public final class Controls{
         public static final int JOYSTICK_USB = 0;
-        
+
     }
 }
