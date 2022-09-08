@@ -13,11 +13,20 @@ package frc.robot;
  * constants are needed, to reduce verbosity.
  */
 public final class Constants {
-    public final class Controls{
+    public final class DriveTrain{
         public static final int CAN_SPKMX_L1 = 1;
         public static final int CAN_SPKMX_L2 = 2;
         public static final int CAN_SPKMX_R1 = 3;
         public static final int CAN_SPKMX_R2 = 4;
-
+    }
+    public final class MotorSpecs{
+        public static final int FALCON_ENC_RES = 2048;
+        public static final int FALCON_MAX_RPM = 6380;
+        public static final int NEO_ENC_RES = 42;
+        public static final int NEO_MAX_RPM = 5676;
+    }
+    public final class Controls{
+        public static final int JOYSTICK_USB = 0;
+        
     }
 }
